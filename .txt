@@ -1,0 +1,10 @@
+USER : KEVIN
+PASWORD: PARCIAL1234 
+-------migrations
+python manage.py makemigrations api_conos
+python manage.py migrate
+-------server
+python manage.py runserver
+--------ip
+http://127.0.0.1:8000/admin/
+
